@@ -1,18 +1,1 @@
-📌 Overview
-The Movie Recommendation System suggests movies based on user preferences and viewing history using Machine Learning (ML) techniques. 
-It leverages collaborative filtering, content-based filtering, and hybrid approaches to enhance recommendation accuracy.
-
-🚀 Features
-✅ Personalized movie recommendations
-✅ Collaborative & content-based filtering
-✅ User-friendly interface
-✅ Efficient data handling and model training
-✅ Data visualization for insights
-
-🛠 Technologies Used
-Programming Language: Python
-Tools: Kaggle, Collab
-Machine Learning Libraries: Scikit-Learn, TensorFlow, Pandas, NumPy
-Recommendation Techniques: Collaborative Filtering, Content-Based Filtering, Hybrid Approach
-Database: CSV
-Data Visualization: Matplotlib, Seaborn
+I built a Movie Recommendation System that suggests similar movies based on the description of a selected movie. I used TF-IDF vectorization and cosine similarity for content-based recommendations. Then I integrated TMDB API to fetch real-time posters, overviews, and ratings, with proper error handling for missing data or network failures. The frontend is built in Streamlit, where users can select a movie and get an interactive recommendation list. This project demonstrates Machine Learning, API integration, and frontend skills together.
